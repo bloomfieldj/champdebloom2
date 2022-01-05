@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import Layout from '../components/Layout'
 
-const Home: NextPage = () => {
+const Projects: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -16,20 +16,16 @@ const Home: NextPage = () => {
 
       <Layout>
         <h1 className={styles.title}>
-          Hi, I'm Jonathon!
+          Welcome to My Projects
         </h1>
 
-
-        <Link href="/projects">
-          <a> Projects </a>
+        <Link href="/">
+          <a> Home </a>
         </Link>
       </Layout>
 
-
-
-
-    </div>
+    </div >
   )
 }
 
-export default Home
+export default Projects
