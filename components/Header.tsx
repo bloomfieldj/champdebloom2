@@ -1,5 +1,13 @@
+import HamburgerMenuIcon from './HamburgerMenuIcon';
+import Navigation from './Navigation';
+
 export default function Header() {
   return (
-    <h1>Header</h1>
+    <nav id="nav">
+      <h1>Jonathon Bloomfield</h1>
+
+      <Navigation />
+
+    </ nav>
   )
 }
